@@ -41,7 +41,7 @@ query: {partners: {$exists: false}}
 
 **6. All the companies that have a null value on the `category_code` field.**
 
-query: {category_code: {$type: null}}
+query: {category_code: {$type: 'null'}}
 
 <br>
 
